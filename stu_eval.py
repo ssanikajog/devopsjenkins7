@@ -1,10 +1,10 @@
 import sys
 if len(sys.argv) == 6:
-  s1 = sys.argv[1]
-  s2 = sys.argv[2]
-  s3 = sys.argv[3]
-  s4 = sys.argv[4]
-  s5 = sys.argv[5]
+  s1 = float(sys.argv[1])
+  s2 = float(sys.argv[2])
+  s3 = float(sys.argv[3])
+  s4 = float(sys.argv[4])
+  s5 = float(sys.argv[5])
 else:
   s1 = 80
   s2 = 76
