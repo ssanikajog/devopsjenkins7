@@ -7,6 +7,16 @@ if len(sys.argv) == 6:
   s5 = sys.argv[5]
   avg = (s1+s2+s3+s4+s5)/5
   print("Average marks: ", avg)
+  if avg > 90 and avg < 100:
+    print("Grade A")
+  if avg > 80 and avg < 90:
+    print("Grade B")
+  if avg > 70 and avg < 80:
+    print("Grade C")
+  if avg > 60 and avg < 70:
+    print("Grade D")
+  else:
+    print("Fail")
 
 else:
   s1 = 80
@@ -16,3 +26,13 @@ else:
   s5 = 89
   avg = (s1+s2+s3+s4+s5)/5
   print("Average marks: ", avg)
+  if avg > 90 and avg < 100:
+    print("Grade A")
+  if avg > 80 and avg < 90:
+    print("Grade B")
+  if avg > 70 and avg < 80:
+    print("Grade C")
+  if avg > 60 and avg < 70:
+    print("Grade D")
+  else:
+    print("Fail")
