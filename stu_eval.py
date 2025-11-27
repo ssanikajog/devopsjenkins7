@@ -9,11 +9,11 @@ if len(sys.argv) == 6:
   print("Average marks: ", avg)
   if avg > 90 and avg < 100:
     print("Grade A")
-  if avg > 80 and avg < 90:
+  elif avg > 80 and avg < 90:
     print("Grade B")
-  if avg > 70 and avg < 80:
+  elif avg > 70 and avg < 80:
     print("Grade C")
-  if avg > 60 and avg < 70:
+  elif avg > 60 and avg < 70:
     print("Grade D")
   else:
     print("Fail")
@@ -28,11 +28,11 @@ else:
   print("Average marks: ", avg)
   if avg > 90 and avg < 100:
     print("Grade A")
-  if avg > 80 and avg < 90:
+  elif avg > 80 and avg < 90:
     print("Grade B")
-  if avg > 70 and avg < 80:
+  elif avg > 70 and avg < 80:
     print("Grade C")
-  if avg > 60 and avg < 70:
+  elif avg > 60 and avg < 70:
     print("Grade D")
   else:
     print("Fail")
